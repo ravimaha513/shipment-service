@@ -3,7 +3,6 @@ package com.shipment.shipmentservice.beans;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 
 public class Location {
@@ -18,7 +17,7 @@ public class Location {
 	
 	public Location() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 	public Location(String cityName, String stateName, LocalDateTime arrivalTime) {
 		super();
